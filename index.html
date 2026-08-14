@@ -7,125 +7,109 @@
 
     <title>Ali Maleki | DevOps Engineer</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <div class="container hero">
+    <main class="hero">
 
-            <img
-                src="image/8459eccd-7c57-4827-b1ca-a8a4f7f3ef92.jpg"
-                alt="Ali Maleki"
-            >
+        <div class="glow glow-one"></div>
+        <div class="glow glow-two"></div>
 
-            <h1>Hi, I'm Ali Maleki 👋</h1>
+        <div class="content">
+
+            <!-- Profile Image -->
+            <div class="profile-wrapper">
+
+                <div class="profile-ring">
+                    <img
+                        src="image/8459eccd-7c57-4827-b1ca-a8a4f7f3ef92.jpg"
+                        alt="Ali Maleki"
+                    >
+                </div>
+
+            </div>
+
+
+            <!-- Introduction -->
+            <p class="hello">HELLO, I'M</p>
+
+            <h1>Ali Maleki</h1>
 
             <h2>DevOps Engineer</h2>
 
-            <p>
-                I'm passionate about DevOps, automation,
-                cloud infrastructure and CI/CD.
+            <p class="description">
+                Building reliable infrastructure, automating deployments
+                and learning the world of Cloud & DevOps.
             </p>
 
-            <div class="buttons">
-                <a href="https://github.com/aliomaleki009" target="_blank">
-                    GitHub
-                </a>
 
-                <a href="#projects">
-                    My Projects
-                </a>
-            </div>
-
-        </div>
-    </header>
-
-
-    <section>
-        <div class="container">
-
-            <h2>My Skills</h2>
-
-            <div class="skills">
-
-                <div class="skill">🐧 Linux</div>
-                <div class="skill">🔧 Git & GitHub</div>
-                <div class="skill">🐳 Docker</div>
-                <div class="skill">☸️ Kubernetes</div>
-                <div class="skill">⚙️ CI/CD</div>
-                <div class="skill">☁️ Cloud</div>
-
-            </div>
-
-        </div>
-    </section>
-
-
-    <section id="projects">
-
-        <div class="container">
-
-            <h2>My Projects</h2>
-
-            <div class="projects">
-
-                <div class="project">
-                    <h3>CI/CD Pipeline</h3>
-                    <p>
-                        Automated deployment using GitHub Actions
-                        and Docker.
-                    </p>
-                </div>
-
-                <div class="project">
-                    <h3>Docker Project</h3>
-                    <p>
-                        Containerized an application using Docker
-                        and Docker Compose.
-                    </p>
-                </div>
-
-                <div class="project">
-                    <h3>Kubernetes</h3>
-                    <p>
-                        Deployed and managed applications using
-                        Kubernetes.
-                    </p>
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <section>
-        <div class="container contact">
-
-            <h2>Contact Me</h2>
-
-            <p>
-                I'm currently learning and building projects
-                in the DevOps ecosystem.
-            </p>
-
+            <!-- GitHub Button -->
             <a
+                class="github-button"
                 href="https://github.com/aliomaleki009"
                 target="_blank"
+                rel="noopener noreferrer"
             >
-                GitHub
+                <span>View My GitHub</span>
+
+                <span class="arrow">↗</span>
             </a>
 
+
+            <!-- Skills -->
+            <div class="skills">
+
+                <div class="skill">
+                    <span>🐧</span>
+                    <p>Linux</p>
+                </div>
+
+                <div class="skill">
+                    <span>🔧</span>
+                    <p>Git</p>
+                </div>
+
+                <div class="skill">
+                    <span>🐳</span>
+                    <p>Docker</p>
+                </div>
+
+                <div class="skill">
+                    <span>☸️</span>
+                    <p>Kubernetes</p>
+                </div>
+
+                <div class="skill">
+                    <span>⚙️</span>
+                    <p>CI/CD</p>
+                </div>
+
+                <div class="skill">
+                    <span>☁️</span>
+                    <p>Cloud</p>
+                </div>
+
+            </div>
+
+
+            <div class="scroll">
+                <span></span>
+                Scroll to explore
+            </div>
+
         </div>
-    </section>
 
-
-    <footer>
-        <p>© 2026 Ali Maleki</p>
-    </footer>
+    </main>
 
 </body>
 
